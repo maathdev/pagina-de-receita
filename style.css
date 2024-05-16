@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #EAEAEA;
+    color: #39393A;
+    text-align: center;
+}
+
+main {
+    background: #FFFFFF;
+    width: 968px;
+    margin: 36px auto;
+    padding: 36px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 16px;
+}
+
+header {
+    margin-bottom: 48px;
+}
+
+header img {
+    width: 480px;
+    border-radius: 10px;
+}
+
+header figcaption {
+    font-size: 14px;
+    color: #8F8F8F;
+}
+
+.ingredients, .preparation, .information {
+    margin-bottom: 48px;
+}
+
+.ingredients ul li, .preparation ol li {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.preparation ol li span {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 12px;
+    color: #8F8F8F;
+}
+
+footer a {
+    color: #8257E5;
+}
